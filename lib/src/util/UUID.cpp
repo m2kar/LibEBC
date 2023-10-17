@@ -21,8 +21,10 @@ std::array<std::uint8_t, 16> GenerateUUID() {
   /* uuid_generate_random(uuid); */
   std::array<std::uint8_t, 16> data;
   /* std::copy(uuid, uuid + 16, data.begin()); */
+  // TODO: BUG: data used without initialization
   return data;
 }
+
 }  // namespace uuid
 }  // namespace util
 }  // namespace ebc

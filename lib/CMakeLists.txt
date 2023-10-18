@@ -67,7 +67,7 @@ target_link_libraries(ebc
   ${ICONV_LIBRARY}
   ${XAR_LIBRARY}
   ${EBC_LLVM_LIBRARIES}
-  #xml2
+  xml2
   ${LLVM_LINK_LIBRARIES}
   ${LIBXML2_STATIC_LDFLAGS})
 
